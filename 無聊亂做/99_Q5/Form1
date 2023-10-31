@@ -1,0 +1,36 @@
+VERSION 5.00
+Begin VB.Form Form1 
+   Caption         =   "Form1"
+   ClientHeight    =   4770
+   ClientLeft      =   60
+   ClientTop       =   750
+   ClientWidth     =   7590
+   LinkTopic       =   "Form1"
+   ScaleHeight     =   4770
+   ScaleWidth      =   7590
+   StartUpPosition =   3  '系統預設值
+   Begin VB.Menu 主餐 
+      Caption         =   "主餐"
+   End
+   Begin VB.Menu 沙拉 
+      Caption         =   "沙拉"
+   End
+   Begin VB.Menu 濃湯 
+      Caption         =   "濃湯"
+   End
+   Begin VB.Menu 甜點 
+      Caption         =   "甜點"
+   End
+End
+Attribute VB_Name = "Form1"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = False
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+Private Sub Form_Load()
+
+End Sub
+
+Private Sub 主餐_Click()
+
+End Sub
